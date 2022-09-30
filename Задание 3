@@ -1,0 +1,7 @@
+from math import * 
+x = int(input())
+y = int(input())
+z1 = cos(y + 0.5) + x - 0.8
+z2 = -2 * y + sin(x) - 1.6
+print('z1 = ', z1)
+print('z2 = ', z2)
