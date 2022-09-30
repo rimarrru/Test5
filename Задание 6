@@ -1,0 +1,8 @@
+def sys(n,p):
+   if p>n:
+      return str(n)
+   return sys(n//p,p)+str(n%p)
+ 
+p=int(input())
+n=int(input())
+print (str(n)+'(10)='+sys(n,p)+'('+str(p)+')')
