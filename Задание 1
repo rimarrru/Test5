@@ -1,0 +1,6 @@
+from math import *
+def function(x):
+  f = 3**(-x) - x**2 + 1
+  return f
+x = int(input())
+print(function(x))  
