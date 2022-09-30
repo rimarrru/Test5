@@ -1,0 +1,13 @@
+from math import *
+def function(x):
+  l = len(str(x))
+  return l
+def function(y):
+  m = len(str(y))
+  return m
+x = int(input())
+y = int(input())
+if function(x) > function(y):
+  print('В числе', x, 'больше цифр, чем в ', y)
+elif function(x) < function(y):
+  print('В числе', y, 'больше цифр, чем в ', x)
